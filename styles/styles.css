@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    color:#212121;  
+}
+
+/* Stilizare Header Section*/
+
+.header__logo,
+.footer__logo{
+    font-family: 'Raleway', 'sans-serif'; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+    text-decoration: none;
+    color:#212121;
+}
+
+.header__logo span,
+.footer__logo span {
+    color:#2196F3;
+}
+
+.header__navigation ul {
+    list-style: none;
+}
+
+.header__navigation a, 
+.header__contact {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #212121;
+}
+
+.header__navigation a:hover, 
+.header__contact:hover {
+    color:#2196F3;
+}
+
+.contact-color {
+    color:#757575;
+}
+
+/* Stilizare Footer Section*/
+
+.footer {
+    background-color:#2F303A;
+}
+
+.logo-color {
+    color:#FFFFFF;
+}
+
+.footer__address,
+.footer__contact{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #FFFFFF;;
+}
+
+.color-contact {
+    color: #FFFFFF99;
+}
+
+/* Stilizare Homepage*/
+
+/*Stilizare Hero Section*/
+
+.hero-section {
+    background-color:#2F303A;;
+}
+
+.hero-section__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.hero-section__request {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    background-color: #2196F3;
+    color:#FFFFFF;
+    border-radius: 4px; 
+}
+
+/*Stilizare About us Section*/
+
+.about-us__list {
+    list-style: none;
+}
+
+.about-us__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+} 
+
+.about-us__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color:#757575;;
+}
+
+/*Stilizare What we do Section*/
+
+.activity__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/*Stilizare Our Team Section*/
+
+.team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.team__member {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.12;
+    text-align: center;
+
+}
+
+.team__occupation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.12;
+    text-align: center;
+    color:#757575;;
+}
