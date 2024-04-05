@@ -1,24 +1,34 @@
+:root {
+    --black: #212121;
+    --white: #FFFFFF;
+    --blue: #2196F3;
+    --dark-grey: #2F303A;
+    --medium-grey: #757575;
+    --light-grey: #FFFFFF99;
+    --primary-font: 'Roboto', 'sans-serif';
+    --secondary-font: 'Raleway', 'sans-serif';
+}
+
 body {
-    font-family: 'Roboto', 'sans-serif';
+    font-family: var(--primary-font);
     font-weight: 700;
-    color:#212121;  
+    color: var(--black);  
 }
 
 /* Stilizare Header Section*/
 
 .header__logo,
 .footer__logo{
-    font-family: 'Raleway', 'sans-serif'; 
-    font-weight: 700;
+    font-family: var(--secondary-font); 
     font-size: 26px;
     line-height: 1.15;
     text-decoration: none;
-    color:#212121;
+    color: var(--black);
 }
 
 .header__logo span,
 .footer__logo span {
-    color:#2196F3;
+    color: var(--blue);
 }
 
 .header__navigation ul {
@@ -31,26 +41,30 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
-    color: #212121;
+    color: var(--black);
 }
 
 .header__navigation a:hover, 
 .header__contact:hover {
-    color:#2196F3;
+    color: var(--blue);
+}
+
+.header__contact:focus {
+    color: var(--blue);
 }
 
 .contact-color {
-    color:#757575;
+    color: var(--medium-grey);
 }
 
 /* Stilizare Footer Section*/
 
 .footer {
-    background-color:#2F303A;
+    background-color: var(--dark-grey);
 }
 
 .logo-color {
-    color:#FFFFFF;
+    color: var(--white);
 }
 
 .footer__address,
@@ -59,11 +73,19 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.15;
-    color: #FFFFFF;;
+    color: var(--white);
 }
 
 .color-contact {
-    color: #FFFFFF99;
+    color: var(--light-grey);
+}
+
+.color-contact:hover {
+    color: var(--blue);
+}
+
+.color-contact:focus {
+    color: var(--blue);
 }
 
 /* Stilizare Homepage*/
@@ -71,45 +93,46 @@ body {
 /*Stilizare Hero Section*/
 
 .hero-section {
-    background-color:#2F303A;;
+    background-color: var(--dark-grey);
 }
 
-.hero-section__title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3;
     text-align: center;
-    color:#FFFFFF;
+    color: var(--white);
 }
 
-.hero-section__request {
-    font-family: 'Roboto', 'sans-serif';
+.hero__request {
+    font-family: var(--primary-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     text-align: center;
-    background-color: #2196F3;
-    color:#FFFFFF;
-    border-radius: 4px; 
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 4px;
+    cursor: pointer; 
 }
 
 /*Stilizare About us Section*/
 
-.about-us__list {
+.about__list {
     list-style: none;
 }
 
-.about-us__title {
+.about__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.15;
 } 
 
-.about-us__subtitle {
+.about__subtitle {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-    color:#757575;;
+    color: var(--medium-grey);
 }
 
 /*Stilizare What we do Section*/
@@ -143,5 +166,40 @@ body {
     font-size: 16px;
     line-height: 1.12;
     text-align: center;
-    color:#757575;;
+    color: var(--medium-grey);
+}
+
+/* Stilizare Portofolio*/
+
+/* Stilizare sectiune butoane*/
+
+.menu__button {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    color: var(--black);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.menu__button:hover {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+/* Stilizare sectiune proiecte*/
+
+.project__title {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.project_subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--medium-grey);
 }
