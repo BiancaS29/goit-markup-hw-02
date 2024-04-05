@@ -5,8 +5,8 @@
     --dark-grey: #2F303A;
     --medium-grey: #757575;
     --light-grey: #FFFFFF99;
-    --primary-font: 'Roboto', 'sans-serif';
-    --secondary-font: 'Raleway', 'sans-serif';
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 body {
@@ -105,7 +105,7 @@ body {
 }
 
 .hero__request {
-    font-family: var(--primary-font);
+    font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
@@ -173,8 +173,8 @@ body {
 
 /* Stilizare sectiune butoane*/
 
-.menu__button {
-    font-family: var(--primary-font);
+.category__button {
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -185,7 +185,7 @@ body {
     border: none;
 }
 
-.menu__button:hover {
+.category__button:hover {
     background-color: var(--blue);
     color: var(--white);
 }
