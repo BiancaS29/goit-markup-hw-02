@@ -76,15 +76,15 @@ body {
     color: var(--white);
 }
 
-.color-contact {
+.footer__contact p {
     color: var(--light-grey);
 }
 
-.color-contact:hover {
+.footer__contact p:hover {
     color: var(--blue);
 }
 
-.color-contact:focus {
+.footer__contact p:focus {
     color: var(--blue);
 }
 
